@@ -4,7 +4,6 @@ class Cart
 {
 
     public $cart;
-
     private $expired;
 
     public function __construct()

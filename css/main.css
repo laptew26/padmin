@@ -253,6 +253,7 @@ textarea{
 main{
   position: relative;
   margin-left: 25px;
+  margin-right: 25px;
   margin-top: 25px;
 }
 
@@ -379,4 +380,29 @@ footer i:hover{
   display: block;
   width: auto;
   margin-bottom: 20px;
+}
+
+/* Оформление заказа */
+
+.order{
+  display: inline;
+  position: relative;
+}
+
+.order__set{
+  width: 60%;
+}
+
+.order__cart{
+  width: 30%;
+  margin-right: 30px;
+}
+
+.order__set input{
+  width: 300px;
+  height: 40px;
+}
+
+.order__set button{
+margin-top: 30px;
 }
